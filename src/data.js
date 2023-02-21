@@ -32,6 +32,11 @@ export const headerData = {
       href: getBlogPermalink(),
     },
   ],
+  socialLinks: [
+    { ariaLabel: 'Twitter', icon: 'tabler:brand-twitter', href: 'https://twitter.com/sebastienmoreno' },
+    { ariaLabel: 'Linkedin', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/in/sebastienmoreno' },
+    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/sebastienmoreno' },
+  ],
 };
   
 export const footerData = {
