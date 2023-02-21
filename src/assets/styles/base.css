@@ -59,3 +59,7 @@
 [data-aw-toggle-menu].expanded g > path:last-child {
   @apply rotate-45 translate-y-[-8px] translate-x-[14px];
 }
+
+.prose :where(tbody td):not(:where([class~="not-prose"] *)) {
+      vertical-align: top;
+}
