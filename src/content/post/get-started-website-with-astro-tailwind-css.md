@@ -4,7 +4,7 @@ title: Get started with AstroWind to create a website using Astro and Tailwind C
 description: Lorem ipsum dolor sit amet
 excerpt: Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur.
 image: ~/assets/images/do-more.jpg
-category: Tutorials
+category: Tools
 tags:
   - astro
   - tailwind css
