@@ -61,5 +61,5 @@
 }
 
 .prose :where(tbody td):not(:where([class~="not-prose"] *)) {
-      vertical-align: top;
+  vertical-align: top;
 }
