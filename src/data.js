@@ -3,19 +3,23 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Landing',
+      text: 'Blog',
+      href: getBlogPermalink(),
+    },
+    {
+      text: 'Articles',
       links: [
         {
-          text: 'Sass',
-          href: getPermalink('/landing/saas'),
+          text: 'Tags',
+          href: getPermalink('/tags'),
         },
         {
-          text: 'Startup',
-          href: getPermalink('/landing/startup'),
+          text: 'Tutorials',
+          href: getPermalink('/category/tutorials'),
         },
         {
-          text: 'Mobile App',
-          href: getPermalink('/landing/mobile-app'),
+          text: 'Tools',
+          href: getPermalink('/category/tools'),
         },
       ],
     },
@@ -23,14 +27,7 @@ export const headerData = {
       text: 'A propos',
       href: getPermalink('/a-propos'),
     },
-    {
-      text: 'Widgets',
-      href: '#',
-    },
-    {
-      text: 'Blog',
-      href: getBlogPermalink(),
-    },
+    
   ],
   socialLinks: [
     { ariaLabel: 'Twitter', icon: 'tabler:brand-twitter', href: 'https://twitter.com/sebastienmoreno' },
