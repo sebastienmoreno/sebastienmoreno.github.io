@@ -21,6 +21,14 @@ export const headerData = {
           text: 'Tools',
           href: getPermalink('/category/tools'),
         },
+        {
+          text: 'Practice',
+          href: getPermalink('/category/practice'),
+        },
+        {
+          text: 'Misc',
+          href: getPermalink('/category/misc'),
+        },
       ],
     },
     {
@@ -50,6 +58,7 @@ export const footerData = {
         { text: 'Tags', href: '/tags' },
         { text: 'Tutorials', href: '/category/tutorials' },
         { text: 'Tools', href: '/category/tools' },
+        { text: 'Practice', href: '/category/practice' },
         { text: 'Misc', href: '/category/misc' },
       ],
     },
