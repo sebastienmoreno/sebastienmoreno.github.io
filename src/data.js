@@ -50,6 +50,7 @@ export const footerData = {
         { text: 'Tags', href: '/tags' },
         { text: 'Tutorials', href: '/category/tutorials' },
         { text: 'Tools', href: '/category/tools' },
+        { text: 'Misc', href: '/category/misc' },
       ],
     },
     {
