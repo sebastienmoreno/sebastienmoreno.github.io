@@ -14,6 +14,10 @@ export const headerData = {
           href: getPermalink('/tags'),
         },
         {
+          text: 'News',
+          href: getPermalink('/category/news'),
+        },
+        {
           text: 'Tutorials',
           href: getPermalink('/category/tutorials'),
         },
@@ -24,10 +28,6 @@ export const headerData = {
         {
           text: 'Practice',
           href: getPermalink('/category/practice'),
-        },
-        {
-          text: 'Misc',
-          href: getPermalink('/category/misc'),
         },
       ],
     },
@@ -56,10 +56,10 @@ export const footerData = {
       title: 'Contenu',
       links: [
         { text: 'Tags', href: '/tags' },
+        { text: 'News', href: '/category/news' },
         { text: 'Tutorials', href: '/category/tutorials' },
         { text: 'Tools', href: '/category/tools' },
         { text: 'Practice', href: '/category/practice' },
-        { text: 'Misc', href: '/category/misc' },
       ],
     },
     {
