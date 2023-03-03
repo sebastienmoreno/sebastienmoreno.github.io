@@ -3,7 +3,7 @@ import defaultImage from './assets/images/default.png';
 const CONFIG = {
   name: 'Jamkey',
 
-  origin: 'https://sebastienmoreno.github.io',
+  origin: 'https://jamkey.fr',
   basePathname: '/',
   trailingSlash: false,
 
