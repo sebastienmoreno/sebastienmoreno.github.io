@@ -48,6 +48,24 @@ A hybrid cloud is a computing environment that combines a public cloud and a pri
 
 **Azure Vmware**: run Vmware workload on Azure
 
+### Cloud public
+
+-   Aucune dépense en capital pour effectuer un scale-up.
+-   Les applications peuvent être rapidement configurées et déprovisionnées.
+-   Les organisations paient uniquement pour ce qu’ils utilisent.
+
+### Cloud privé
+
+-   Le matériel doit être acheté pour le démarrage et la maintenance.
+-   Les organisations disposent d’un contrôle total sur les ressources et la sécurité.
+-   Les organisations sont responsables de la maintenance et des mises à jour du matériel.
+
+### Cloud hybride
+
+-   Offre la plus grande flexibilité.
+-   Les organisations déterminent où exécuter leurs applications.
+-   Les organisations contrôlent la sécurité, la conformité ou les exigences légales.
+
 ## Consumption-based model
 
 **Capital expenditure (CapEx)** : buy material, once paid is yours, but limited resources.
@@ -69,6 +87,9 @@ Vertical scaling is focused on increasing or decreasing the capabilities of reso
 ## IaaS
 
 Maximum of control on the resources.
+IaaS helps you reduce the cost and complexity of maintaining a physical server and its datacenter infrastructure. Virtual networks are part of the IaaS cloud service.
+
+[Describe different cloud services - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/fundamental-azure-concepts/categories-of-cloud-services)
 
 ## PaaS
 
@@ -346,6 +367,10 @@ AZ: 1 or more DC
 -   Zone-redundant services: The platform replicates automatically across zones (for example, zone-redundant storage, SQL Database).
 -   Non-regional services: Services are always available from Azure geographies and are resilient to zone-wide outages as well as region-wide outages.
 
+Availability zones are physically separate datacenters within an Azure region. Each availability zone is made up of one or more datacenters equipped with independent power, cooling, and networking.
+
+[Azure regions, availability zones, and region pairs - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/azure-architecture-fundamentals/regions-availability-zones)
+
 ![Diagram showing the relationship between geography, region pair, region, and availability zone.](/images/az-900/region-pairs.png)
 
 Region pairs allow the replication of Azure resources across geographies to help ensure that a secondary region is available in case of any disaster at the primary region.
@@ -426,6 +451,10 @@ Resource locks can be used to prevent resources from being accidentally deleted 
 -   Resource Health is a tailored view of your actual Azure resources.
 
 > Source: [https://learn.microsoft.com/training/modules/monitoring-fundamentals/2-identify-product-options](https://learn.microsoft.com/training/modules/monitoring-fundamentals/2-identify-product-options)
+
+After an outage, Service Health provides official incident reports called root cause analysis (RCA), which you can share with stakeholders.
+
+[Identify your product options - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/monitoring-fundamentals/2-identify-product-options)
 
 ## Azure Monitor
 
