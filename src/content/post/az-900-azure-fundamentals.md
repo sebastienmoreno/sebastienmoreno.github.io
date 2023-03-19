@@ -466,6 +466,12 @@ Application Insights is a feature of Azure Monitor that allows you to monitor ru
 
 [Identify your product options - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/monitoring-fundamentals/2-identify-product-options)
 
+## Health advisories
+
+Health advisories are issues that require that you take proactive action to avoid service interruptions, such as service retirements and breaking changes. Service issues are problems such as outages that require immediate actions.
+
+[Identify your product options - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/monitoring-fundamentals/2-identify-product-options)
+
 ## Costs
 
 Pricing calculator: [https://azure.microsoft.com/fr-fr/pricing/calculator/](https://azure.microsoft.com/fr-fr/pricing/calculator/)
