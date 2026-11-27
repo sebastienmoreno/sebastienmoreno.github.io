@@ -1,3 +1,20 @@
 {{ define "main" }}
-    {{ .Content }}
+    <section class="home-hero">
+        {{ .Content }}
+    </section>
+
+    {{ $posts := where .Site.RegularPages "Section" "post" }}
+    {{ if $posts }}
+        <section class="home-latest">
+            <div class="home-section-heading">
+                <h2>Derniers articles</h2>
+                <a href="{{ "post/" | relURL }}">Voir tous les articles</a>
+            </div>
+            <div class="article-list">
+                {{ range first 6 $posts }}
+                    {{ partial "article-list/default" . }}
+                {{ end }}
+            </div>
+        </section>
+    {{ end }}
 {{ end }}

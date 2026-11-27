@@ -3,3 +3,9 @@
     name = "Articles"
     url = "/post/"
     weight = 10
+
+[[main]]
+    identifier = "about"
+    name = "À propos"
+    url = "/a-propos/"
+    weight = 20

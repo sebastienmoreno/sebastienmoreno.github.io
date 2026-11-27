@@ -1,0 +1,74 @@
+:root {
+    --body-background: #eef4fb;
+    --accent-color: #0b2f5b;
+    --accent-color-darker: #061f3d;
+    --accent-color-text: #ffffff;
+    --body-text-color: #42536a;
+    --card-background-selected: #dce9f8;
+}
+
+:root[data-scheme="dark"] {
+    --body-background: #071a33;
+    --accent-color: #7fb2f5;
+    --accent-color-darker: #a8cbfa;
+    --accent-color-text: #071a33;
+    --body-text-color: rgba(235, 243, 255, 0.78);
+    --card-background: #102b4d;
+    --card-background-selected: #1a3c64;
+    --card-text-color-main: rgba(245, 249, 255, 0.94);
+    --card-text-color-secondary: rgba(220, 234, 252, 0.72);
+    --card-text-color-tertiary: rgba(205, 225, 249, 0.58);
+    --card-separator-color: rgba(169, 204, 241, 0.18);
+}
+
+.home-hero {
+    background: linear-gradient(135deg, #0b2f5b 0%, #124c86 100%);
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--shadow-l2);
+    color: #f5f9ff;
+    margin-bottom: var(--section-separation);
+    padding: clamp(24px, 5vw, 48px);
+}
+
+.home-hero h1,
+.home-hero h2,
+.home-hero h3,
+.home-hero strong,
+.home-hero a {
+    color: #ffffff;
+}
+
+.home-hero p,
+.home-hero li {
+    color: rgba(245, 249, 255, 0.86);
+}
+
+.home-hero a {
+    text-decoration-color: rgba(255, 255, 255, 0.55);
+}
+
+.home-hero a:hover {
+    text-decoration-color: #ffffff;
+}
+
+.home-latest {
+    margin-bottom: var(--section-separation);
+}
+
+.home-section-heading {
+    align-items: baseline;
+    display: flex;
+    gap: var(--spacing-md);
+    justify-content: space-between;
+    margin-bottom: var(--spacing-md);
+}
+
+.home-section-heading h2 {
+    margin: 0;
+}
+
+.home-section-heading a {
+    color: var(--accent-color);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
