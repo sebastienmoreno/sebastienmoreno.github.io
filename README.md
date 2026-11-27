@@ -8,7 +8,7 @@ Blog posts are kept as Markdown files in `content/post/`. Their text and useful 
 
 The homepage contains an overview of the main topics and automatically shows the six latest articles. Edit `content/_index.md` to change its introduction and topic links.
 
-The article index is available at `/post/`, the biography page is available at `/a-propos/`, and article URLs keep the previous root-level slug format, for example `/what-is-devops/`.
+The article index is available at `/post/`, the biography page is available at `/a-propos/`, the conference references are available at `/conferences/`, and article URLs keep the previous root-level slug format, for example `/what-is-devops/`.
 
 ## Local development
 

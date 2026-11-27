@@ -5,7 +5,13 @@
     weight = 10
 
 [[main]]
+    identifier = "conferences"
+    name = "Conférences"
+    url = "/conferences/"
+    weight = 20
+
+[[main]]
     identifier = "about"
     name = "À propos"
     url = "/a-propos/"
-    weight = 20
+    weight = 30

@@ -11,7 +11,7 @@ I work as a DevOps expert, Platform Engineer and Architect, teacher and speaker.
 
 ### Retrouvez-moi en ligne
 
-- [Bluesky](https://bsky.app/profile/sebmoreno.bsky.social)
+- [Twitter](https://twitter.com/sebastienmoreno)
 - [LinkedIn](https://www.linkedin.com/in/sebastienmoreno)
 - [GitHub](https://github.com/sebastienmoreno)
 - [Deezer](https://www.deezer.com/fr/artist/4875609)
