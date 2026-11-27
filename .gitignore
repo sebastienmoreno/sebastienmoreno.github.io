@@ -24,3 +24,8 @@ pnpm-lock.yaml
 
 .astro
 .obsidian
+
+/public/
+/resources/
+.hugo_build.lock
+
