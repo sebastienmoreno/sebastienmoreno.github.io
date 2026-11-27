@@ -1,5 +1,5 @@
 baseURL: "https://jamkey.fr/"
-languageCode: "en-us"
+locale: "en-US"
 title: "Jamkey"
 theme: "hugo-theme-stack"
 enableRobotsTXT: true
