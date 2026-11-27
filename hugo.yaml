@@ -1,0 +1,28 @@
+baseURL: "https://jamkey.fr/"
+languageCode: "en-us"
+title: "Jamkey"
+theme: "hugo-theme-stack"
+enableRobotsTXT: true
+enableGitInfo: true
+hasCJKLanguage: true
+
+defaultContentLanguage: en
+
+permalinks:
+  post: "/:slug/"
+
+pagination:
+  pagerSize: 6
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON

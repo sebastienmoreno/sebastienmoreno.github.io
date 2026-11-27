@@ -1,0 +1,31 @@
+mainSections = ["post"]
+rssFullContent = true
+
+[sidebar]
+    compact = false
+    subtitle = "Tech, architecture and DevOps"
+    avatar = ""
+
+[colorScheme]
+    toggle = true
+    default = "auto"
+
+[article]
+    headingAnchor = false
+    math = false
+    toc = true
+    readingTime = true
+
+    [article.list]
+        showTags = false
+
+[comments]
+    enabled = false
+
+[footer]
+    since = 2014
+    customText = ""
+
+[widgets]
+    homepage = []
+    page = []
